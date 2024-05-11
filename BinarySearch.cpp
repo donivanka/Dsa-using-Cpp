@@ -19,9 +19,10 @@ int main()
     cin >> key;
     int found = searchelement(Arr, size, key);
     if (found)
-        cout << "Element Found at : https://github.com/donivanka/Dsa-using-Cpp.githttps://github.com/donivanka/Dsa-using-Cpp.githttps://github.com/donivanka/Dsa-using-Cpp.githttps://github.com/donivanka/Dsa-using-Cpp.git" << found;
+        cout << "Element Found at :" << found;
     else
-        cout << "Element Not Found";
+        cout
+            << "Element Not Found";
 
     return 0;
 }
